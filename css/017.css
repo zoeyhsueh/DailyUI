@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:300,400,500,700,900");
+body {
+  background-image: linear-gradient(to top, #C9D39E 0%, #EDDECD 100%);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-family: "Frank Ruhl Libre", serif; }
+
+.box {
+  position: relative;
+  width: 900px;
+  height: 880px;
+  top: 100px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 15px #5e5e5e; }
+
+.banner {
+  height: 200px;
+  background-image: url("https://images.unsplash.com/photo-1505935428862-770b6f24f629?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2c5a2cf31c693f5c15fb08135bf1adf2&auto=format&fit=crop&w=1494&q=80");
+  background-size: 1029px;
+  background-position: 0px -390px; }
+  .banner .hi {
+    padding: 30px 0px 0px 220px;
+    color: #444;
+    font-weight: 400;
+    font-size: 32pt;
+    text-shadow: 0px 3px 6px #999; }
+    .banner .hi .name {
+      font-weight: 900; }
+  .banner .des {
+    padding: 0px 0px 0pc 430px;
+    font-size: 28px;
+    font-weight: 700; }
+
+.content {
+  padding: 38px 80px 0px 80px; }
+
+table {
+  margin-top: 30px;
+  color: #444;
+  font-weight: 500;
+  width: 100%;
+  border-collapse: collapse; }
+  table caption {
+    color: #92A174;
+    font-size: 30pt;
+    text-align: left;
+    border-bottom: 5px solid #444; }
+    table caption span {
+      font-weight: 700;
+      font-size: 40pt; }
+  table tr {
+    text-align: center; }
+    table tr .tr1 {
+      text-align: left;
+      width: 52%; }
+    table tr .tr2, table tr .tr3, table tr .tr3 {
+      width: 16%; }
+  table td {
+    padding: 12px 0px;
+    border-bottom: 1px solid #444; }
+  table tfoot .td1 {
+    border: 0;
+    text-align: right;
+    padding-right: 30px; }
+  table tfoot .td2 {
+    border-bottom: 1px solid #444; }
+
+.info {
+  display: flex;
+  flex-wrap: wrap; }
+  .info div {
+    font-weight: 400;
+    padding: 5px 0px;
+    width: 50%; }
+    .info div .title {
+      font-weight: 700; }
+
+.footer {
+  height: 105px;
+  width: 900px;
+  background-color: #92A174;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  right: 0; }
+  .footer div {
+    color: white;
+    font-size: 14pt;
+    font-weight: 500;
+    text-align: center;
+    padding: 5px; }
+    .footer div a {
+      color: #F4CE6F;
+      text-decoration: none; }
